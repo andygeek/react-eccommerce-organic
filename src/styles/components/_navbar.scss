@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap");
+
 .navbar__container{
     height: 80px;
     display: flex;
@@ -8,6 +10,20 @@
 }
 .navbar__menu{
     width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+.navbar__menu a{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
+    &:hover{
+        color: $primary;
+    }
 }
 .navbar__shopping{
     width: 15%;
