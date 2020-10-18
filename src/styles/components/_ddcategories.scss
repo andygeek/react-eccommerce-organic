@@ -1,5 +1,5 @@
 .ddcategories__container{
-    width: 100%;
+    width: 95%;
 }
 .ddcategories__title{
     display: flex;
@@ -35,5 +35,8 @@
     fill: white;
 }
 .ddcategories__toggler{
+    position: absolute;
+}
+.ddcategories__item{
     
 }
