@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./styles/style.scss";
+import { Navbar } from "./components/Navbar";
 
 export const App = () => {
   return (
-    <div className="App">
-      <h1>Eccomerce</h1>
+    <div className="container">
+      <Navbar />
     </div>
   );
-}
+};

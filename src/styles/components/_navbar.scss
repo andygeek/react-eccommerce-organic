@@ -1,0 +1,19 @@
+.navbar__container{
+    height: 80px;
+    display: flex;
+}
+.navbar__logo{
+    width: 25%;
+    padding: 5px;
+}
+.navbar__menu{
+    width: 60%;
+}
+.navbar__shopping{
+    width: 15%;
+}
+.navbar__logo img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+}
