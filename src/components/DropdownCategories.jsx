@@ -20,18 +20,16 @@ export const DropdownCategories = () => {
           <ArrowIcon />
         </span>
       </div>
-      {open ? (
-        <div className="ddcategories__toggler">
-          <ul className="ddcategories__list">
-            <li className="ddcategories__item">Fresh Meat</li>
-            <li className="ddcategories__item">Fruit & Nut Gifts</li>
-            <li className="ddcategories__item">Vegetables</li>
-            <li className="ddcategories__item">Ocean Foods</li>
-            <li className="ddcategories__item">Fastfood</li>
-            <li className="ddcategories__item">Fresh Bananas</li>
-          </ul>
-        </div>
-      ) : null}
+      <div className="ddcategories__toggler">
+        <ul className={open ? "ddcategories__list active" : "ddcategories__list" }>
+          <li className="ddcategories__item">Fresh Meat</li>
+          <li className="ddcategories__item">Fruit & Nut Gifts</li>
+          <li className="ddcategories__item">Vegetables</li>
+          <li className="ddcategories__item">Ocean Foods</li>
+          <li className="ddcategories__item">Fastfood</li>
+          <li className="ddcategories__item">Fresh Bananas</li>
+        </ul>
+      </div>
     </div>
   );
 };

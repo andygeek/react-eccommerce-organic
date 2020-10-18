@@ -1,42 +1,60 @@
-.ddcategories__container{
-    width: 95%;
+.ddcategories__container {
+  width: 95%;
 }
-.ddcategories__title{
-    display: flex;
-    background-color: $primary;
-    height: 48px;
+.ddcategories__title {
+  display: flex;
+  background-color: $primary;
+  height: 48px;
 }
-.ddcategories__list{
-    list-style: none;
+.ddcategories__list {
+  list-style: none;
 }
-.ddcategories__menu-icon{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
+.ddcategories__menu-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
-.ddcategories__menu-icon svg{
-    width: 20px;
-    margin-right: 10px;
-    fill: white;
+.ddcategories__menu-icon svg {
+  width: 20px;
+  margin-right: 10px;
+  fill: white;
 }
-.ddcategories__title{
-    font-family: "Cairo", sans-serif;
-    display: flex;
-    color: white;
-    align-items: center;
+.ddcategories__title {
+  font-family: "Cairo", sans-serif;
+  display: flex;
+  color: white;
+  align-items: center;
 }
-.ddcategories__arrow-icon{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+.ddcategories__arrow-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
-.ddcategories__arrow-icon svg{
-    width:12px;
-    fill: white;
+.ddcategories__arrow-icon svg {
+  width: 12px;
+  fill: white;
 }
-.ddcategories__toggler{
-    position: absolute;
+.ddcategories__list {
+  position: relative;
+  width: calc(0.25 * #{$width_container} * 0.95 - 2px);
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  top: -500px;
+  transition: 0.7s ease;
 }
-.ddcategories__item{
-    
+.ddcategories__item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.ddcategories__list.active {
+  display: block;
+  top: -20px;
+}
+.ddcategories__toggler {
+  position: absolute;
+  top: 150px;
+  width: 600px;
+  height: 250px;
+  overflow: hidden;
 }

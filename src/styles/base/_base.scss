@@ -1,6 +1,7 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
+  padding: 0px;
 }
 
 html,
@@ -12,5 +13,5 @@ body {
 
 .container {
   margin: auto;
-  max-width: 1170px;
+  max-width: $width_container;
 }
