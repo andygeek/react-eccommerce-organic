@@ -1,11 +1,10 @@
 import React from 'react';
+import "./styles/style.scss";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <h1>Eccomerce</h1>
     </div>
   );
 }
-
-export default App;
